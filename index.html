@@ -79,19 +79,29 @@
 
     @media (max-width:600px) {
       .main {
-        background-color: white;
-        margin: 20px auto;
-        width: 350px;
-        height: 700px;
-        border-radius: 15px;
-        display: block;
+      background-color: white;
+      margin: 50px auto;
+      border-radius: 15px;
+      width: 360px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
     }
-      .main-informations {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
+    .main-image {
+      width: 360px;
+      height: 300px;
+      border-radius: 15px 15px 0px 0px;
+      background-image: url('images/image-product-desktop.jpg');
+      background-position: center center;
+      background-size: cover;
+    }
+    .main-informations {
+      width: 80%;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
     }
     }
   </style>
