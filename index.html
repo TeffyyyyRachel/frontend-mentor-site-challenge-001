@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Product preview card component</title>
@@ -11,7 +11,10 @@
 <body>
 
   <main class="main">
-    <div class="main-image"></div>
+    <picture>
+      <source media="(max-width: 600px)" srcset="images/image-product-mobile.jpg" type="image/jpg">
+      <img class="main-image" src="images/image-product-desktop.jpg" alt="perfume Gabrielle Essence Eau De Parfum">
+    </picture>
     <div class="main-informations">
       <p class="main-informations-p">PERFUME</p>
       <h1 class="main-informations-h1">Gabrielle Essence Eau De Parfum</h1>

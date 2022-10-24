@@ -22,11 +22,8 @@ body {
     flex-direction: row;
 }
 .main-image {
-    width: 50%;
+    width: 300px;
     border-radius: 15px 0px 0px 15px;
-    background-image: url('images/image-product-desktop.jpg');
-    background-position: center center;
-    background-size: cover;
 }
 .main-informations {
     width: 50%;
@@ -89,9 +86,6 @@ body {
     width: 340px;
     height: 300px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url('images/image-product-desktop.jpg');
-    background-position: center center;
-    background-size: cover;
 }
 .main-informations {
     width: 80%;
