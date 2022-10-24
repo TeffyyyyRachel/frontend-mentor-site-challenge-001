@@ -17,29 +17,28 @@
     body {
       background-color: hsl(30, 38%, 92%);
     }
+    
     .main {
-      background-color: white;
-      margin: 50px auto;
-      border-radius: 15px;
-      width: 600px;
-      height: 450px;
-      display: flex;
-      flex-direction: row;
+        background-color: white;
+        margin: 20px auto;
+        width: 350px;
+        height: 700px;
+        border-radius: 15px;
     }
     .main-image {
-      width: 50%;
-      border-radius: 15px 0px 0px 15px;
-      background-image: url('images/image-product-desktop.jpg');
-      background-position: center center;
-      background-size: cover;
+        height: 325px;
+        background-color: lightblue;
+        border-radius: 15px 15px 0px 0px;
+        background-image: url('images/image-product-mobile.jpg');
+        background-position: top center; 
+        background-size: cover;
     }
     .main-informations {
-      width: 50%;
-      padding: 30px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      justify-content: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
     }
     .main-informations-h1 {
       font-family: 'Fraunces', serif;
@@ -75,24 +74,6 @@
     }
     .main-informations-button:hover {
       background-color: hsl(158, 42%, 22%);
-    }
-
-    @media (max-width:600px) {
-      .main {
-        background-color: white;
-        margin: 20px auto;
-        width: 350px;
-        height: 700px;
-        border-radius: 15px;
-        display: block;
-    }
-      .main-informations {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
-    }
     }
   </style>
 </head>
